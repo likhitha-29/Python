@@ -63,3 +63,14 @@ if b>c:
   b=c
   c=temp
 print(a,b,c)
+******************************************
+Fibonacci series
+n=int(input("Enter number:"))
+a=1
+b=1
+print(a,b,end=" ")
+for i in range(n-2):
+    c=a+b
+    a=b
+    b=c
+    print(c,end=" ")
