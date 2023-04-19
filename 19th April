@@ -54,12 +54,12 @@ if a>b:
   temp=a
   a=b
   b=temp
-if b>c:
-  temp=b
-  b=c
-  c=temp
 if a>c:
   temp=c
   c=a
   a=temp
+if b>c:
+  temp=b
+  b=c
+  c=temp
 print(a,b,c)
