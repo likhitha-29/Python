@@ -14,7 +14,7 @@ Palindrome
 n=int(input("Enter a number:"))
 temp=n
 rev=0
-while temp:
+while temp>0:
   rem=temp%10
   rev=rev*10+rem
   temp//=10
@@ -23,3 +23,16 @@ if n==rev:
 else:
   print("n is not a Palindrome")
 ************************************
+Armstrong Number
+n=int(input("Enter a number:"))
+temp=n
+sum=0
+while temp>0:
+  rem=temp%10
+  sum+=rem**3
+  temp//=10
+if n==sum:
+  print("n is Armstrong Number")
+else:
+  print("n is not a Armstrong Number")
+*****************************************
