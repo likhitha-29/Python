@@ -36,3 +36,13 @@ if n==sum:
 else:
   print("n is not a Armstrong Number")
 *****************************************
+Calculate the area of triangle, square and rectangle
+b=int(input("Enter side of triangle"))
+h=int(input("Enter height of triangle"))
+print("Area of Triangle: ",0.5*h*b)
+s=int(input("Enter side of Square"))
+print("Area of square:",s*s)
+l=int(input("Enter length of rectangle"))
+b=int(input("Enter breadth of rectangle"))
+print("Area of rectangle:",l*b)
+
